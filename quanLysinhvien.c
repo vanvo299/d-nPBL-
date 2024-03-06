@@ -54,6 +54,7 @@ void xuatFile(SinhVien *x, int n) {
         for (int i = 0; i < n; i++) {
             fprintf(outputFile, "Sinh vien %d:\n", i + 1);
             fprintf(outputFile, "Ho va ten: %s\n", x[i].ten);
+            fprintf(outputFile, "Gioi tinh: %s\n", x[i].gioiTinh);
             fprintf(outputFile, "Lop: %s\n", x[i].lop);
             fprintf(outputFile, "GPA: %.2lf\n", x[i].gpa);
             fprintf(outputFile, "Can nang: %.1lf\n", x[i].canNang);
